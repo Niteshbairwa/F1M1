@@ -214,65 +214,150 @@
 /* ---------------------------------------------------------REVIEWS------------------------------------------- */
 
 
+.brief {
+  display: grid;
+  grid-template-columns:3fr 3fr 3fr;
+  grid-template-rows: ;
+  width: 80vw;
+  margin: auto;
 
-
-
-
-
-
-
-.reviews{
-    margin-top: 200px;
-    width: 80vw;
-    margin: auto;
-}
-
-
-
-
-
-
-
-.love > h2 {
-  color: var(--BLACK, #2b2f34);
-  text-align: center;
-  font-family: "ABeeZee";
-  font-size: 42px;
-  font-style: italic;
-  line-height: 150%;
-  letter-spacing: -0.63px;
-}
-
-.love > p {
-  color: var(--textlabelcolorscharcoal, #595959);
-  font-size: 18px;
-  text-align: center;
-  font-weight: 400;
-  line-height: 130%;
-  letter-spacing: 0.36px;
-}
-
-.brief{
-    margin-top:100px;
-    /* display: grid;
-    gap:15px; */
-
-    grid-template-columns: 300px 300px 300px;
-    gap:15px;
-
-    
 }
 
 .card_1{
-    border-radius: 10px;
+  display: inline-flex;
+padding: 24px;
+flex-direction: column;
+align-items: flex-start;
+gap: 15px;
+
+border-radius: 10px;
 border: 2px solid #D7D7D7;
 background: #FFF;
 box-shadow: 5px 9px 40px 0px rgba(0, 0, 0, 0.08);
 
-padding :10px;
+}
+
+
+.reviews{
+  margin-top: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ----------------COURSES------------------------ */
+
+.courses{
+  padding-top: 100px;
+}
+
+
+
+.beginer_text>h2{
+  color: var(--BLACK, #2B2F34);
+font-family: 'ABeeZee';
+font-size: 26px;
+font-style: italic;
 
 
 }
+
+.box{
+  border-radius: 7px;
+background: #E0F3FF;
+
+display: flex;
+padding: 6px 15px;
+align-items: flex-start;
+gap: 18px;
+
+}
+
+.beginer_text>p{
+  color: #565656;
+font-size: 14px;
+line-height: 150%; 
+}
+
+
+.text{
+  gap:50px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.20);;
+  width: 426px;
+
+}
+
+.text>h3{
+  color: #000;
+ font-weight: 800;
+font-size: 16px;
+font-weight: 400;
+letter-spacing: 0.32px;
+}
+
+#button_1{
+  display: flex;
+width: 203px;
+padding: 14px 6px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 8px;
+border: 1px solid var(--primaryskyblue, #2F80ED);
+background: #FFF;
+font-family: 'ABeeZee';
+font-size: 18px;
+font-style: italic;
+line-height: 150%;
+}
+
+#button_2{
+  display: flex;
+width: 203px;
+padding: 14px 6px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 8px;
+background:  #2F80ED;
+color:white;
+
+font-family: 'ABeeZee';
+font-size: 18px;
+font-style: italic;
+line-height: 150%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -287,14 +372,13 @@ padding :10px;
     width: 80vw;
     margin: auto;
     gap:30px;
+    
 }
 
 
-.imgs{
-    width: 80%;
-    margin: auto;
-    gap: 20px;
-}
+
+
+
 
 .hire>h6{
     text-align: center;
@@ -340,6 +424,37 @@ text-align: center;
 color: #595959;
 
 }
+
+.com_logo{
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+width: 80vw;
+display: flex;
+gap: 100px;
+justify-content: space-around;
+flex-wrap: wrap;
+}
+
+
+.com_logo>img{
+  display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .company>button{
     display: flex;
